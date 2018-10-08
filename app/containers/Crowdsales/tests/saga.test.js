@@ -55,7 +55,7 @@ describe('getCrowdsales Saga', () => {
           id: 0,
           pendingneg: '0',
           pendingpos: '0',
-          symbol: 'BTC',
+          symbol: 'HC,
           value: '251440000',
         },
       ],

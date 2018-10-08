@@ -129,11 +129,11 @@ function TransactionInfo(props) {
   let specificAction;
   if (props.type_int === 20) {
     btcDesired = (<tr className="highlight">
-      <td className="field">Bitcoin Desired</td>
+      <td className="field">HC Desired</td>
       <td>
         <strong>
           <span id="lamount">
-            <SanitizedFormattedNumber value={props.bitcoindesired}/> BTC
+            <SanitizedFormattedNumber value={props.bitcoindesired}/> HC
           </span>
         </strong>
       </td>
@@ -223,8 +223,8 @@ function TransactionInfo(props) {
               </td>
             </tr>
             <tr>
-              <td className="field">Bitcoin Fees</td>
-              <td><span id="lfees">{props.fee} BTC</span></td>
+              <td className="field">HC Fees</td>
+              <td><span id="lfees">{props.fee} HC</span></td>
             </tr>
             <tr>
               <td className="field">Omni Fees</td>

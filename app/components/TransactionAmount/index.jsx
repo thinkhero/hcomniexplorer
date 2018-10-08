@@ -56,7 +56,7 @@ class TransactionAmount extends React.Component { // eslint-disable-line react/p
                     </div>
                     <div>
                       <span>
-                        <SanitizedFormattedNumber value={purchase.amountpaid} /> BTC Paid
+                        <SanitizedFormattedNumber value={purchase.amountpaid} /> HC Paid
                       </span>
                     </div>
                   </div>
