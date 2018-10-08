@@ -63,8 +63,8 @@ class Header extends React.PureComponent {
         <Navbar color="faded" light expand="sm" className="d-block">
           <div className="d-flex">
             <NavbarBrand href="/">
-              <IMG src="/favicon.png" alt="OMNIEXPLORER.INFO" />
-              OMNIEXPLORER.INFO
+              <IMG src="/favicon.png" alt="HC OMNIEXPLORER.INFO" />
+              HC  OMNIEXPLORER.INFO
             </NavbarBrand>
             <div className="ml-auto w-50 d-flex">
               <div className="w-100 ml-auto d-none-only-sm-down">
@@ -91,7 +91,7 @@ class Header extends React.PureComponent {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem>
-                      <NavLink href="https://api.omniexplorer.info">Documentation</NavLink>
+                      <NavLink href="http://47.75.73.254">Documentation</NavLink>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
