@@ -30,7 +30,7 @@ class TransactionAmount extends React.Component { // eslint-disable-line react/p
 
   render() {
     //  transaction types without amount
-    if ([28, 53, 70, 65534].includes(this.props.type_int)) {
+    if ([28, 53, 70, 185, 186, 65534].includes(this.props.type_int)) {
       return <tr></tr>;
     }
     //  DEx Purchase
